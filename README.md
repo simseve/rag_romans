@@ -26,9 +26,8 @@ I find running MISTRAL 7B on CPU only very challenging. Shall move to GPU enviro
 ## Setup
 1. **Clone the Repository**:
    ```bash
-   git clone [Your-Repository-URL]
+   git clone git@github.com:simseve/rag_romans.git
    ```
-   Replace `[Your-Repository-URL]` with the actual URL of your repository.
 
 2. **Install Dependencies**:
    ```bash
