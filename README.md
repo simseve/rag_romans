@@ -86,7 +86,6 @@ python app.py
 ```
 
 ## Usage
-
 Once your Telegram bot is set up and running, follow these steps to interact with it:
 
 1. **Start the Bot**:
@@ -96,6 +95,8 @@ Once your Telegram bot is set up and running, follow these steps to interact wit
 2. **Interacting with the Bot**:
    - After initialization, you can start interacting with the bot.
    - Simply send a message or question, and the bot will respond based on the ingested documents.
+
+![Telegram chat example](images/telegram_chat.png "Example of interaction")
 
 3. **Help Command**:
    - If you need assistance or want to know more about the bot's capabilities, send the `/help` command.
