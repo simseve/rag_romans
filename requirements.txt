@@ -1,0 +1,6 @@
+llama-index
+pypdf
+transformers
+torchvision
+python-telegram-bot
+python-dotenv
