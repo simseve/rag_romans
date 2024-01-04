@@ -42,7 +42,7 @@ async def answer(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             await update.message.reply_text(response.response)
         else:
             logger.info("Chat engine is not initialized.")
-            await update.message.reply_text("Chat engine is not initialized. Please start the bot.")
+            await update.message.reply_text("Chat engine is not initialized. Please start the bot with /start command.")
     except Exception as e:
         logger.error(f"Error in answer: {e}")
         await update.message.reply_text("Sorry, there was an error processing your request.")
