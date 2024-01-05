@@ -35,10 +35,11 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 async def answer(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Answer the user message."""
     message = update.message.text
+    logger.info(f"User message: {message}")
     try:
         if global_chat_engine is not None:
             response = sellm.query_chat_engine(global_chat_engine, message)
-            logger.info(f"User message: {message} User response: {response.response}")
+            logger.info(f"User response: {response.response}")
             await update.message.reply_text(response.response)
         else:
             logger.info("Chat engine is not initialized.")
